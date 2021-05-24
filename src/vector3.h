@@ -64,7 +64,6 @@ class Vector3 {
   
   void print();
   Float distance();
-  friend void operator-(Vector3 &x);
 
 };
 
