@@ -152,13 +152,6 @@ Vector3 Vector3::operator/(const Float &rhs) {
   return Vector3(*this) /= rhs;
 }
 
-void operator-(Vector3 &x)
-{
-     x.m_x = -x.m_x;
-     x.m_y = -x.m_y;
-     x.m_z = -x.m_z;
-}
-
 
 //added by students
 void Vector3::print() {
